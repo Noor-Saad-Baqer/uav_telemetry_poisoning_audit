@@ -1,0 +1,3 @@
+setting,n,n_folds,spoof_frac,raw_acc,bal_acc,bal_sd,Normal,GPS Spoofing,Ping DoS
+balanced,2547,4,0.1468,0.679,0.722,0.086,0.724,0.82,0.621
+unbalanced,38235,4,0.0098,0.572,0.31,0.122,0.693,0.003,0.234

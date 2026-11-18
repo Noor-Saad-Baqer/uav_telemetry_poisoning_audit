@@ -1,0 +1,74 @@
+{
+  "note": "independent unit = fold; seeds averaged within fold before testing. window_p is the pseudo-replicated value, kept for comparison only and must not be reported.",
+  "clean_rf_vs_chance": {
+    "mean": 0.7215761649785354,
+    "ci95": [
+      0.6428783657679207,
+      0.7915394781108197
+    ],
+    "chance": 0.3333333333333333,
+    "t": 9.016934069652452,
+    "p": 0.0028799916437704793,
+    "n_folds": 4,
+    "window_p": 2.8701085158338326e-09,
+    "significant": true
+  },
+  "clean_xgb_vs_chance": {
+    "mean": 0.635031469022754,
+    "ci95": [
+      0.5724786185402624,
+      0.6959248554913295
+    ],
+    "chance": 0.3333333333333333,
+    "t": 7.694944296991644,
+    "p": 0.004561006025366543,
+    "n_folds": 4,
+    "window_p": 1.549233541950348e-08,
+    "significant": true
+  },
+  "clean_mlp_vs_chance": {
+    "mean": 0.4937971734181663,
+    "ci95": [
+      0.42460598318475024,
+      0.5654921125361926
+    ],
+    "chance": 0.3333333333333333,
+    "t": 3.6137185777515137,
+    "p": 0.03640808598989513,
+    "n_folds": 4,
+    "window_p": 7.305051493881763e-05,
+    "significant": true
+  },
+  "defense_targeted_flip": {
+    "friedman_p": 0.032433240894795524,
+    "avg_rank": {
+      "filtered_retrain": 1.5,
+      "trimmed_agg": 3.0,
+      "relabel_retrain": 1.5
+    },
+    "best": "filtered_retrain",
+    "wilcoxon_vs_best": {
+      "trimmed_agg": 0.125,
+      "relabel_retrain": 1.0
+    },
+    "n_blocks": 4,
+    "block_unit": "fold",
+    "scope": "rate=0.3 only (p3_stats_clustered.json averages over all rates)"
+  },
+  "defense_backdoor": {
+    "friedman_p": 0.03813332654704519,
+    "avg_rank": {
+      "filtered_retrain": 1.375,
+      "trimmed_agg": 3.0,
+      "relabel_retrain": 1.625
+    },
+    "best": "filtered_retrain",
+    "wilcoxon_vs_best": {
+      "trimmed_agg": 0.125,
+      "relabel_retrain": 0.5
+    },
+    "n_blocks": 4,
+    "block_unit": "fold",
+    "scope": "rate=0.3 only (p3_stats_clustered.json averages over all rates)"
+  }
+}

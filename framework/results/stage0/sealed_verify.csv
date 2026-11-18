@@ -1,0 +1,17 @@
+track,check,ok
+uavids,sha256(UAVIDS csv),True
+isot,bytes(DoS/DoS_3_5_1_20mins.pcap.csv),True
+isot,bytes(DoS/UDP_Flood_8_5_4_15mins.pcap.csv),True
+isot,bytes(DoS/slowloris_5_1_mul_launch.pcap.csv),True
+isot,bytes(Injection/Instruction_injection_3_5_13_10mins.pcap.csv),True
+isot,bytes(Ip Spoofing/IP_spoofing_4_5_17_1mins.pcap.csv),True
+isot,bytes(MITM/MITM_5_5_13_fly_8mins.pcap.csv),True
+isot,bytes(Regular/regular_12_5_19.pcap.csv),True
+isot,bytes(Regular/regular_1_5_19.pcap.csv),True
+isot,bytes(Regular/regular_28_5_21.pcap.csv),True
+isot,bytes(Regular/regular_30_5_21.pcap.csv),True
+isot,bytes(Regular/regular_47_5_23.pcap.csv),True
+isot,bytes(Unauth/unauthen_1_5_16_8mins.pcap.csv),True
+isot,bytes(Unauth/unauthen_2_5_16_9mins.pcap.csv),True
+isot,bytes(Video/video_2_5_13_8mins.pcap.csv),True
+telemetry,sha256(telemetry export),True

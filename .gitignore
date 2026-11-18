@@ -1,0 +1,11 @@
+# datasets are downloaded separately (see README)
+data/
+# caches and local logs
+__pycache__/
+*.pyc
+step3/experiments/.cache_p3/
+framework/results/stage0/sealed_access_log.jsonl
+framework/results/stage0/machine.json
+framework/results/_quick/
+framework/figures/_quick/
+framework/results/.cache/

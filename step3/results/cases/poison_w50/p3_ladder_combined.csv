@@ -1,0 +1,6 @@
+step,step_name,rf_bal_acc,rf_spoof_recall,lstmgru_bal_acc,lstmgru_spoof_recall,lstmgru_complete
+1,"1. as published (folder labels, all feats, random split)",1.0,1.0,0.9853509832283391,0.9850746268656717,True
+2,2. + temporal split,0.745,0.537,0.6785895661347855,0.568024721476783,True
+3,3. + leave-one-airframe-out,0.614,0.177,0.5858812632102879,0.34788008415659966,True
+4,4. + window-level labels,0.92,0.957,0.8212772037049936,0.7341886966274133,True
+5,5. + drop label-defining features,0.722,0.82,0.5486721457628838,0.6598005287190579,True

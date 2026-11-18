@@ -1,0 +1,17 @@
+airframe,cls,status,n,frac_gt,frac_cur,kappa,tp,fp,fn,tn
+PX4-H480-SITL,Normal,ok,7034.0,0.0,0.0,1.0,0.0,0.0,0.0,7034.0
+PX4-H480-SITL,GPS Spoofing,لا يوجد groundtruth,,,,,,,,
+PX4-H480-SITL,Ping DoS,ok,6951.0,0.0,0.9121,0.0,0.0,6340.0,0.0,611.0
+PX4-PLANE-SITL,Normal,ok,5161.0,0.0,0.0,1.0,0.0,0.0,0.0,5161.0
+PX4-PLANE-SITL,GPS Spoofing,ok,3285.0,0.0451,0.0451,0.993,147.0,1.0,1.0,3136.0
+PX4-QUAD-HITL,Normal,لا يوجد groundtruth,,,,,,,,
+PX4-QUAD-HITL,GPS Spoofing,لا يوجد groundtruth,,,,,,,,
+PX4-QUAD-HITL,Ping DoS,ok,7366.0,0.0,0.494,0.0,0.0,3639.0,0.0,3727.0
+PX4-QUAD-SITL,Normal,ok,7384.0,0.0,0.0,1.0,0.0,0.0,0.0,7384.0
+PX4-QUAD-SITL,GPS Spoofing,ok,7728.0,0.0193,0.0194,0.99,148.0,2.0,1.0,7577.0
+PX4-QUAD-SITL,Ping DoS,ok,7371.0,0.0,0.4959,0.0,0.0,3655.0,0.0,3716.0
+PX4-TAIL-SITL,Normal,ok,2275.0,0.0,0.0,1.0,0.0,0.0,0.0,2275.0
+PX4-TAIL-SITL,Ping DoS,ok,2144.0,0.0,0.5336,0.0,0.0,1144.0,0.0,1000.0
+PX4-VTOL-SITL,Normal,ok,2175.0,0.0,0.0,1.0,0.0,0.0,0.0,2175.0
+PX4-VTOL-SITL,GPS Spoofing,ok,2602.0,0.0569,0.0569,0.993,147.0,1.0,1.0,2453.0
+PX4-VTOL-SITL,Ping DoS,ok,2209.0,0.0,0.5029,0.0,0.0,1111.0,0.0,1098.0

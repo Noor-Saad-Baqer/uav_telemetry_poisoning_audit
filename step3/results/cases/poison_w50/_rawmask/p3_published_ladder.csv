@@ -1,0 +1,18 @@
+model,step,step_name,label_mode,noleak,protocol,fold,seed,n_train,n_test,raw_acc,bal_acc,spoof_recall,secs
+lstm_gru,1,"as published (folder labels, all feats, random split)",flight,False,random,random,0,29677,12720,0.9903301886792452,0.9905221048278464,0.9817578772802652,120.3
+lstm_gru,1,"as published (folder labels, all feats, random split)",flight,False,random,random,1,29677,12720,0.9842767295597484,0.984383383077174,0.9836531627576404,170.0
+lstm_gru,1,"as published (folder labels, all feats, random split)",flight,False,random,random,2,29677,12720,0.9803459119496856,0.9811474617799968,0.9898128405591092,191.6
+lstm,1,"as published (folder labels, all feats, random split)",flight,False,random,random,0,29677,12720,0.9815251572327044,0.9823205181074458,0.9872068230277186,166.2
+lstm,1,"as published (folder labels, all feats, random split)",flight,False,random,random,1,29677,12720,0.9882075471698112,0.9884230949910106,0.980336413172234,187.0
+lstm,1,"as published (folder labels, all feats, random split)",flight,False,random,random,2,29677,12720,0.9837264150943396,0.9837570564131358,0.9722814498933902,165.1
+gru,1,"as published (folder labels, all feats, random split)",flight,False,random,random,0,29677,12720,0.9848270440251572,0.9855424473593932,0.9876806443970624,245.1
+gru,1,"as published (folder labels, all feats, random split)",flight,False,random,random,1,29677,12720,0.983254716981132,0.9836631381510866,0.9741767353707652,229.8
+gru,1,"as published (folder labels, all feats, random split)",flight,False,random,random,2,29677,12720,0.9882075471698112,0.9884382277477316,0.9779673063255152,233.2
+lstm_gru,2,+ temporal split,flight,False,temporal,within-flight,0,29671,12326,0.6607171831900048,0.6700359209433323,0.6108807026103927,199.1
+lstm_gru,2,+ temporal split,flight,False,temporal,within-flight,1,29671,12326,0.6612850884309589,0.6675699001155407,0.514759697487192,194.9
+lstm_gru,2,+ temporal split,flight,False,temporal,within-flight,2,29671,12326,0.6908972902807075,0.6981628773454837,0.578433764332764,223.9
+lstm_gru,2,+ temporal split,flight,False,temporal,within-flight,2,29671,12326,0.6908972902807075,0.6981628773454837,0.578433764332764,187.7
+lstm,2,+ temporal split,flight,False,temporal,within-flight,0,29671,12326,0.6749959435339932,0.682200258870146,0.6006343010490364,154.5
+lstm,2,+ temporal split,flight,False,temporal,within-flight,0,29671,12326,0.6749959435339932,0.682200258870146,0.6006343010490364,157.9
+lstm,2,+ temporal split,flight,False,temporal,within-flight,1,29671,12326,0.6763751419763102,0.684483671231645,0.5616003903391071,159.9
+lstm,2,+ temporal split,flight,False,temporal,within-flight,1,29671,12326,0.6763751419763102,0.684483671231645,0.5616003903391071,125.5
