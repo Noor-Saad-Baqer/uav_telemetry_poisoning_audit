@@ -1,7 +1,7 @@
 # UAV Telemetry Poisoning Audit
 
 This repository holds the code and result files for the paper
-**"Pre-Training Data Auditing and Poisoning Resilience for UAV Telemetry-Based Intrusion Detection"**.
+**"Training-Data Auditing and Poisoning Robustness in UAV Telemetry-Based Intrusion Detection"**.
 
 It covers:
 - the audited Random Forest baseline on PX4 flight telemetry;
