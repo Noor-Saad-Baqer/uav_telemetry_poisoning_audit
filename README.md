@@ -116,4 +116,4 @@ If you use this code, please cite the paper. The full reference will be added on
 
 ## Licence
 
-To be chosen by the authors before the repository is made public.
+This project is licensed under the MIT License (see LICENSE).
